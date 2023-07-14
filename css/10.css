@@ -1,0 +1,42 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+#menu_text
+{
+    text-align: center;
+    background-color: #32a838;
+    padding: 60px 120px;
+   
+}
+nav
+{
+    background-color: rgb(52, 53, 53);
+    /* padding: 14px 20px;
+    border: 20px; */
+    overflow: hidden; /*Khung thanh bảng chọn vừa với bố cục hơn thay vì to hơn */
+
+}
+nav a
+{
+    color: white; /*  màu của chữ viết trên thanh menu */
+    padding: 14px 20px; /*Kích thước của phần viền ngoài của nội dung*/
+   display: block; /* dùng để biến thnah menu thành hàng dọc chồng lên nhau như kệ*/
+    text-align: center; /*Đưa kiểu nav của a vào vị trí ở giữa*/
+    text-decoration: none; /*Không trang trí gì cho các dòng chữ của menu*/
+    float: left; /*Đưa tất cả thanh menu trôi sang bên trái*/
+}
+nav a:hover{
+    background-color: rgb(119, 114, 114);
+    color: black;
+}
+nav a.menu_right 
+{
+    float : right;
+}
+nav a.left
+{
+    float : left;
+}
